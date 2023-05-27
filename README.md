@@ -51,11 +51,11 @@ After successful authentication, you should be able to see a list of events from
 ## Project Structure
 The project folder structure is as follows:
 
-'''
-google_calendar_integration/
- ├── calendar_app/
- │   ├── __init__.py
- │   ├── admin.py
+
+#google_calendar_integration/
+ #├── calendar_app/
+ #│   ├── __init__.py
+ #│   ├── admin.py
  │   ├── apps.py
  │   ├── models.py
  │   ├── tests.py

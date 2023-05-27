@@ -1,6 +1,10 @@
 # Google Calendar Integration
 This project provides a Django web application that integrates with the Google Calendar API, allowing users to authenticate and retrieve a list of events from their Google Calendar. The application follows the OAuth2 authorization flow to obtain access tokens and make requests to the Google Calendar API.
 
+# Project Demo
+
+To see a video demonstration of the project in action, click [here](<https://drive.google.com/file/d/1eI4WRP3HkWEqll4ni9wX9YBN9jyhcIgf/view?usp=share_link>).
+
 ## Prerequisites
 Before running the project, ensure that you have the following installed:
 

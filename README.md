@@ -52,22 +52,23 @@ After successful authentication, you should be able to see a list of events from
 The project folder structure is as follows:
 
 google_calendar_integration/
- ├── calendar_app/
- │   ├── __init__.py
- │   ├── admin.py
- │   ├── apps.py
- │   ├── models.py
- │   ├── tests.py
- │   └── views.py  # Contains the main view code
- ├── google_calendar_integration/
- │   ├── __init__.py
- │   ├── asgi.py
- │   ├── settings.py
- │   ├── urls.py  # Add your URL patterns here
- │   └── wsgi.py
- ├── manage.py
- ├── requirements.txt  # Contains project dependencies
- └── README.md  # Documentation and instructions
+├── calendar_app/
+│ ├── __init__.py
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py
+│ ├── tests.py
+│ └── views.py # Contains the main view code
+├── google_calendar_integration/
+│ ├── __init__.py
+│ ├── asgi.py
+│ ├── settings.py
+│ ├── urls.py # Add your URL patterns here
+│ └── wsgi.py
+├── manage.py
+├── requirements.txt # Contains project dependencies
+└── README.md # Documentation and instructions
+
  
 ## Customization
 If you want to modify the application's behavior or add additional features, you can modify the 'views.py' file inside the 'calendar_app' directory.

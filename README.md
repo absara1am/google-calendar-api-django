@@ -51,6 +51,7 @@ After successful authentication, you should be able to see a list of events from
 ## Project Structure
 The project folder structure is as follows:
 
+'''
 google_calendar_integration/
  ├── calendar_app/
  │   ├── __init__.py
@@ -68,7 +69,7 @@ google_calendar_integration/
  ├── manage.py
  ├── requirements.txt  # Contains project dependencies
  └── README.md  # Documentation and instructions
- 
+ '''
 ## Customization
 If you want to modify the application's behavior or add additional features, you can modify the 'views.py' file inside the 'calendar_app' directory.
 You can customize the authentication and authorization settings by adjusting the environment variables 'GOOGLE_CLIENT_ID' and 'GOOGLE_CLIENT_SECRET' in your operating system.
